@@ -1,12 +1,11 @@
-# Architecture decision record
+# Comment
 
 <!--
-This template helps create proposals for technical and organisational decisions.
-Architecture decision records are for internal decisions about how Naamio Wallet
-is built, structured, and maintained. For community-facing changes, use the
-request for comments template instead.
+This template helps create proposals for community-facing changes and features.
+For underlying technical decisions, use the architecture decision record
+template instead.
 
-Process details: https://handbook.omnifi.foundation/engineering/architecture/adrs/
+Process details: https://handbook.omnifi.foundation/engineering/architecture/governance/
 -->
 
 ## Overview
@@ -14,11 +13,19 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/adr
 ### Title
 ### Number
 ### Status
-- [ ] Proposed
+- [ ] Draft
+- [ ] Under discussion
 - [ ] Accepted
 - [ ] Rejected
-- [ ] Deprecated
 - [ ] Superseded
+
+### Category
+- [ ] Public interfaces
+- [ ] Features
+- [ ] Protocols
+- [ ] Behaviour
+- [ ] Community process
+- [ ] Standards
 
 ### Affected projects
 - [ ] Core (credential storage engine, encryption, hardware key protection, credential lifecycle, configuration)
@@ -34,46 +41,58 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/adr
 
 ---
 
+## Executive summary
+### Proposal
+### Motivation
+### Impact scope
+
+---
+
 ## Problem statement
 ### Current situation
-### Decision drivers
-### Constraints
+### Pain points
+### Success criteria
 
 ---
 
-## Proposed decision
-### Chosen approach
-### Rationale
-### Consequences
+## Detailed design
+### Overview
+### Public specification
+### Implementation approach
 
 ---
 
-## Alternatives considered
+## Prior art and alternatives
 
 ---
 
-## Impact summary
-### Technical impact
-### Contributor impact
-### Security impact
+## Community impact
+### Stakeholder analysis
+### Migration path
 
 ---
 
-## Implementation notes
-### Approach
-### Verification
+## Implementation planning
+
+---
+
+## Technical considerations
+### Security implications
+### Testing strategy
+
+---
+
+## Open questions
 
 ---
 
 ## References
-### Related decisions
-### External references
 
 ---
 
 ## Governance
 
-This decision follows the
+This proposal follows the
 [Omnifi Foundation governance model](https://handbook.omnifi.foundation/engineering/architecture/governance/).
 
-/label ~"adr" ~"architecture" ~"technical"
+/label ~"comment" ~"architecture" ~"needs discussion"

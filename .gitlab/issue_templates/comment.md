@@ -1,9 +1,9 @@
-# Request for comments
+# Comment
 
 <!--
 Use this template to propose community-facing changes and features for Naamio
 Wallet. After creating this issue, draft your full proposal using the template
-at templates/rfc.md and submit a merge request.
+at templates/comment.md and submit a merge request.
 -->
 
 ## Overview
@@ -55,7 +55,7 @@ at templates/rfc.md and submit a merge request.
 ---
 
 ## Next steps
-- [ ] Draft full proposal in `rfcs/XXXX-title.md`
+- [ ] Draft full proposal in `comments/XXXX-title.md`
 - [ ] Submit merge request to begin discussion period
 
 ---
@@ -65,4 +65,4 @@ at templates/rfc.md and submit a merge request.
 This proposal follows the
 [Omnifi Foundation governance model](https://handbook.omnifi.foundation/engineering/architecture/governance/).
 
-/label ~"rfc" ~"architecture" ~"needs discussion"
+/label ~"comment" ~"architecture" ~"needs discussion"

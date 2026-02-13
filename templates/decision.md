@@ -1,11 +1,12 @@
-# Request for comments
+# Decision
 
 <!--
-This template helps create proposals for community-facing changes and features.
-For underlying technical decisions, use the architecture decision record
-template instead.
+This template helps create proposals for technical and organisational decisions.
+Decisions record internal choices about how Naamio Wallet
+is built, structured, and maintained. For community-facing changes, use the
+comment template instead.
 
-Process details: https://handbook.omnifi.foundation/engineering/architecture/rfcs/
+Process details: https://handbook.omnifi.foundation/engineering/architecture/governance/
 -->
 
 ## Overview
@@ -13,19 +14,11 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/rfc
 ### Title
 ### Number
 ### Status
-- [ ] Draft
-- [ ] Under discussion
+- [ ] Proposed
 - [ ] Accepted
 - [ ] Rejected
+- [ ] Deprecated
 - [ ] Superseded
-
-### Category
-- [ ] Public interfaces
-- [ ] Features
-- [ ] Protocols
-- [ ] Behaviour
-- [ ] Community process
-- [ ] Standards
 
 ### Affected projects
 - [ ] Core (credential storage engine, encryption, hardware key protection, credential lifecycle, configuration)
@@ -41,58 +34,46 @@ Process details: https://handbook.omnifi.foundation/engineering/architecture/rfc
 
 ---
 
-## Executive summary
-### Proposal
-### Motivation
-### Impact scope
-
----
-
 ## Problem statement
 ### Current situation
-### Pain points
-### Success criteria
+### Decision drivers
+### Constraints
 
 ---
 
-## Detailed design
-### Overview
-### Public specification
-### Implementation approach
+## Proposed decision
+### Chosen approach
+### Rationale
+### Consequences
 
 ---
 
-## Prior art and alternatives
+## Alternatives considered
 
 ---
 
-## Community impact
-### Stakeholder analysis
-### Migration path
+## Impact summary
+### Technical impact
+### Contributor impact
+### Security impact
 
 ---
 
-## Implementation planning
-
----
-
-## Technical considerations
-### Security implications
-### Testing strategy
-
----
-
-## Open questions
+## Implementation notes
+### Approach
+### Verification
 
 ---
 
 ## References
+### Related decisions
+### External references
 
 ---
 
 ## Governance
 
-This proposal follows the
+This decision follows the
 [Omnifi Foundation governance model](https://handbook.omnifi.foundation/engineering/architecture/governance/).
 
-/label ~"rfc" ~"architecture" ~"needs discussion"
+/label ~"decision" ~"architecture" ~"technical"

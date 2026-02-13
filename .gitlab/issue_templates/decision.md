@@ -1,9 +1,9 @@
-# Architecture decision record
+# Decision
 
 <!--
 Use this template to propose technical and organisational decisions for Naamio
 Wallet. After creating this issue, draft your full proposal using the template
-at templates/adr.md and submit a merge request.
+at templates/decision.md and submit a merge request.
 -->
 
 ## Overview
@@ -40,7 +40,7 @@ at templates/adr.md and submit a merge request.
 ---
 
 ## Next steps
-- [ ] Draft full proposal in `adrs/XXXX-title.md`
+- [ ] Draft full proposal in `decisions/XXXX-title.md`
 - [ ] Submit merge request for review
 - [ ] Address feedback from technical leads
 - [ ] Update status after decision
@@ -52,4 +52,4 @@ at templates/adr.md and submit a merge request.
 This decision follows the
 [Omnifi Foundation governance model](https://handbook.omnifi.foundation/engineering/architecture/governance/).
 
-/label ~"adr" ~"architecture" ~"technical"
+/label ~"decision" ~"architecture"
